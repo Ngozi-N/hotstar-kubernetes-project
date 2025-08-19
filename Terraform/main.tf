@@ -9,9 +9,6 @@ terraform {
 
 provider "aws" {
   region     = var.region
-  # Prefer env vars or a profile; vars work if you already use them:
-  # access_key = var.access_key
-  # secret_key = var.secret_key
 }
 
 # ── Networking ────────────────────────────────────────────────
